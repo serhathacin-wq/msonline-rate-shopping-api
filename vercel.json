@@ -1,10 +1,4 @@
 {
-    "version": 2,
-    "functions": {
-        "api/rate-shopping.js": {
-            "maxDuration": 10
-        }
-    },
     "headers": [
         {
             "source": "/api/(.*)",
