@@ -1,0 +1,13 @@
+{
+    "name": "msonline-rate-shopping-api",
+    "version": "1.0.0",
+    "description": "Vercel serverless API for Msonline Kontrol — anlık otel fiyat karşılaştırma.",
+    "private": true,
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "scripts": {
+        "dev": "vercel dev",
+        "deploy": "vercel --prod"
+    }
+}
