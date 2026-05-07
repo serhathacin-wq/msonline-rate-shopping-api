@@ -1,0 +1,15 @@
+{
+    "functions": {
+        "api/rate-shopping.js": {
+            "maxDuration": 90
+        }
+    },
+    "headers": [
+        {
+            "source": "/api/(.*)",
+            "headers": [
+                { "key": "Cache-Control", "value": "no-store, max-age=0" }
+            ]
+        }
+    ]
+}
